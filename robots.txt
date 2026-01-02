@@ -1,12 +1,9 @@
-# robots.txt for Fate Trigger
+# robots.txt for REPLACED Game
 User-agent: *
 Allow: /
-Allow: /news/
-Allow: /media/
-Allow: /guides/
-Allow: /map/
-Allow: /weapons/
-Allow: /awakeners/
+Allow: /news
+Allow: /media
+Allow: /guides
 Allow: /privacy-policy
 Allow: /terms-of-service
 
@@ -16,10 +13,6 @@ Disallow: /system/
 Disallow: /private/
 Disallow: /temp/
 Disallow: /cgi-bin/
-Disallow: /*?*
 
 # Sitemap location
-Sitemap: https://fate-trigger.com/sitemap.xml
-
-# Crawl delay to prevent server overload
-Crawl-delay: 10 
+Sitemap: https://replacedgame.com/sitemap.xml 
