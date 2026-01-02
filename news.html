@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPLACED News - Latest Updates & Announcements | replacedgame.com</title>
+    <meta name="description" content="Stay updated with the latest REPLACED game news, announcements, and updates. Get the newest information about the 2.5D sci-fi platformer launching March 12, 2026.">
+    <meta name="keywords" content="replaced game news, replaced updates, replaced announcements, replaced game march 2026, replaced xbox, replaced steam, replaced game pass, sad cat studios news">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://replacedgame.com/news">
+    <meta property="og:title" content="REPLACED News - Latest Updates & Announcements">
+    <meta property="og:description" content="Stay updated with the latest REPLACED game news, announcements, and updates.">
+    <meta property="og:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="REPLACED News - Latest Updates & Announcements">
+    <meta name="twitter:description" content="Stay updated with the latest REPLACED game news, announcements, and updates.">
+    <meta name="twitter:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="apple-touch-icon" href="static/logo.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/base.css?v=1.0.0">
+    
+    <!-- Microsoft Validation -->
+    <meta name="msvalidate.01" content="B362957FC36C5EDDD6079B6D78330424">
+    
+    <!-- IndexNow -->
+    <meta name="yandex-verification" content="ee9f27884397bc6d" />
+    <meta name="IndexNow-Key" content="B362957FC36C5EDDD6079B6D78330424">
+    <meta name="IndexNow-Url" content="https://replacedgame.com/news">
+    
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDFZLSQVMZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CDFZLSQVMZ');
+    </script>
+    
+    <style>
+        .news-hero {
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.95), rgba(20, 10, 10, 0.90)), 
+                        url('static/images/artwork/Replaced_Keyart_Landscape_16x9.png');
+            background-size: cover;
+            background-position: center;
+            color: var(--secondary-color);
+            padding: 150px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .news-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: 800;
+        }
+
+        .news-hero p {
+            font-size: 1.3rem;
+            color: var(--light-accent);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .news-content {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.5), rgba(50, 30, 30, 0.3)),
+                        radial-gradient(circle at 50% 50%, rgba(232, 67, 34, 0.1), transparent);
+        }
+
+        .news-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .news-tab {
+            background: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .news-tab.active,
+        .news-tab:hover {
+            background: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .news-list {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .news-item {
+            background: var(--secondary-color);
+            border-radius: 15px;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .news-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--shadow-color);
+        }
+
+        .news-item-header {
+            padding: 2rem 2rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .news-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #E84322 0%, #cc2d0f 100%);
+            color: #ffffff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba(232, 67, 34, 0.4);
+        }
+
+        .news-title {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        .news-title a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .news-title a:hover {
+            color: #E84322;
+            text-shadow: 0 0 10px rgba(232, 67, 34, 0.5);
+        }
+
+        .news-date {
+            color: var(--text-color);
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .news-item-content {
+            padding: 1rem 2rem 2rem;
+        }
+
+        .news-excerpt {
+            color: var(--text-color);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            filter: brightness(1.05) saturate(1.1) contrast(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .news-image:hover {
+            transform: scale(1.02);
+        }
+
+        .read-more-btn {
+            background: linear-gradient(135deg, #E84322 0%, #cc2d0f 100%);
+            color: #ffffff;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 0 15px rgba(232, 67, 34, 0.5);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .read-more-btn:hover {
+            background: linear-gradient(135deg, #ff5c3a 0%, #E84322 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(255, 92, 58, 0.8);
+        }
+
+        .featured-news {
+            background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(40, 20, 20, 0.4)),
+                        radial-gradient(circle at 20% 80%, rgba(232, 67, 34, 0.1), transparent);
+            padding: 4rem 0;
+        }
+
+        .featured-item {
+            background: var(--secondary-color);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px var(--shadow-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .featured-content {
+            padding: 2rem;
+        }
+
+        .featured-category {
+            background: linear-gradient(135deg, #E84322 0%, #cc2d0f 100%);
+            color: #ffffff;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px rgba(232, 67, 34, 0.5);
+        }
+
+        .featured-title {
+            font-size: 2rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .featured-excerpt {
+            color: var(--text-color);
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+            gap: 1rem;
+        }
+
+        .pagination button {
+            background: var(--secondary-color);
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.8rem 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .pagination button:hover,
+        .pagination button.active {
+            background: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        @media (max-width: 768px) {
+            .news-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .news-hero p {
+                font-size: 1.1rem;
+            }
+
+            .news-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .news-tab {
+                width: 200px;
+                text-align: center;
+            }
+
+            .news-item-header,
+            .news-item-content {
+                padding: 1.5rem;
+            }
+
+            .featured-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="static/logo.png" alt="REPLACED Logo">
+                    
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/news" class="active">News</a></li>
+                    <li><a href="/media">Media</a></li>
+                    <li><a href="/guides">Guides</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <button class="close-menu">&times;</button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/media">Media</a></li>
+                <li><a href="/guides">Guides</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <script async="async" data-cfasync="false" src="//pl28136434.effectivegatecpm.com/e946f08f3aed55e5425fe4ac5eb0477b/invoke.js"></script>
+        <div id="container-e946f08f3aed55e5425fe4ac5eb0477b"></div>
+        <!-- News Hero -->
+        <section class="news-hero">
+            <div class="container">
+                <h1>LATEST NEWS</h1>
+                <p>Stay updated with the latest REPLACED game news, announcements, events, and updates. Get exclusive insights into the 2.5D sci-fi platformer launching March 12, 2026.</p>
+            </div>
+        </section>
+
+        <!-- Featured News -->
+        <section class="featured-news">
+            <div class="container">
+                <h2 class="text-center mb-4">Featured News</h2>
+                <div class="featured-item">
+                    <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png" alt="REPLACED Is a Beautiful, Brilliant 2.5D Cyberpunk Thriller" class="featured-image">
+                    <div class="featured-content">
+                        <span class="featured-category">Preview</span>
+                        <h3 class="featured-title">Replaced Is a Beautiful, Brilliant 2.5D Cyberpunk Thriller | gamescom 2025</h3>
+                        <p class="featured-excerpt">Pixel art, possibly perfected. REPLACED showcases stunning visuals and engaging gameplay in this 2.5D sci-fi platformer that combines cinematic action with retro-futuristic aesthetics.</p>
+                        <a href="https://sea.ign.com/replaced/232057/preview/replaced-is-a-beautiful-brilliant-25d-cyberpunk-thriller-gamescom-2025" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Content -->
+        <section class="news-content">
+            <div class="container">
+                <!-- News Tabs -->
+                <div class="news-tabs">
+                    <button class="news-tab active" data-category="all">All News</button>
+                    <button class="news-tab" data-category="preview">Preview</button>
+                    <button class="news-tab" data-category="news">News</button>
+                </div>
+
+                <!-- News List -->
+                <div class="news-list">
+                    <!-- Latest News Items -->
+                    <div class="news-item" data-category="preview">
+                        <div class="news-item-header">
+                            <span class="news-category">Preview</span>
+                            <a href="https://sea.ign.com/replaced/232057/preview/replaced-is-a-beautiful-brilliant-25d-cyberpunk-thriller-gamescom-2025" target="_blank" rel="noopener"><h3 class="news-title">Replaced Is a Beautiful, Brilliant 2.5D Cyberpunk Thriller | gamescom 2025</h3></a>
+                            <p class="news-date">4 months ago</p>
+                        </div>
+                        <div class="news-item-content">
+                            <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png" alt="Replaced Is a Beautiful, Brilliant 2.5D Cyberpunk Thriller" class="news-image">
+                            <p class="news-excerpt">Pixel art, possibly perfected. REPLACED showcases stunning visuals and engaging gameplay in this 2.5D sci-fi platformer that combines cinematic action with retro-futuristic aesthetics.</p>
+                            <a href="https://sea.ign.com/replaced/232057/preview/replaced-is-a-beautiful-brilliant-25d-cyberpunk-thriller-gamescom-2025" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="news-item" data-category="news">
+                        <div class="news-item-header">
+                            <span class="news-category">News</span>
+                            <a href="https://sea.ign.com/replaced/219345/news/pixel-cyberpunk-sidescroller-replaced-delayed-again-this-time-to-2025" target="_blank" rel="noopener"><h3 class="news-title">Pixel Cyberpunk Sidescroller Replaced Delayed Again, This Time to 2025</h3></a>
+                            <p class="news-date">1 year, 4 months ago</p>
+                        </div>
+                        <div class="news-item-content">
+                            <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2.png" alt="Pixel Cyberpunk Sidescroller Replaced Delayed Again" class="news-image">
+                            <p class="news-excerpt">"Our initial release date was optimistic." REPLACED has been delayed to ensure the best possible experience for players.</p>
+                            <a href="https://sea.ign.com/replaced/219345/news/pixel-cyberpunk-sidescroller-replaced-delayed-again-this-time-to-2025" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="news-item" data-category="news">
+                        <div class="news-item-header">
+                            <span class="news-category">News</span>
+                            <a href="https://sea.ign.com/replaced/205350/news/xbox-exclusive-replaced-delayed-at-this-point-we-cant-afford-to-release-a-sub-par-game" target="_blank" rel="noopener"><h3 class="news-title">Xbox Exclusive Replaced Delayed: 'At This Point We Can't Afford to Release a Sub-Par Game'</h3></a>
+                            <p class="news-date">2 years, 3 months ago</p>
+                        </div>
+                        <div class="news-item-content">
+                            <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot3.png" alt="Xbox Exclusive Replaced Delayed" class="news-image">
+                            <p class="news-excerpt">Cyberpunk thriller has found its way to several "Most Anticipated" lists thanks to its lavish pixel art. The developers are committed to delivering a polished experience.</p>
+                            <a href="https://sea.ign.com/replaced/205350/news/xbox-exclusive-replaced-delayed-at-this-point-we-cant-afford-to-release-a-sub-par-game" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="news-item" data-category="news">
+                        <div class="news-item-header">
+                            <span class="news-category">News</span>
+                            <a href="https://sea.ign.com/replaced/193287/news/replaced-new-trailer-revealed-at-the-game-awards-2022" target="_blank" rel="noopener"><h3 class="news-title">Replaced: New Trailer Revealed at The Game Awards 2022</h3></a>
+                            <p class="news-date">3 years ago</p>
+                        </div>
+                        <div class="news-item-content">
+                            <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot4Carpng.png" alt="Replaced New Trailer Revealed at The Game Awards 2022" class="news-image">
+                            <p class="news-excerpt">The game is set to come out sometime next year. A stunning new trailer was revealed at The Game Awards showcasing the game's beautiful pixel art and cinematic action.</p>
+                            <a href="https://sea.ign.com/replaced/193287/news/replaced-new-trailer-revealed-at-the-game-awards-2022" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="news-item" data-category="news">
+                        <div class="news-item-header">
+                            <span class="news-category">News</span>
+                            <a href="https://sea.ign.com/replaced/185792/news/stylish-cyberpunk-thriller-replaced-delayed-until-2023" target="_blank" rel="noopener"><h3 class="news-title">Stylish Cyberpunk Thriller Replaced Delayed Until 2023</h3></a>
+                            <p class="news-date">3 years, 7 months ago</p>
+                        </div>
+                        <div class="news-item-content">
+                            <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot5NoUI.png" alt="Stylish Cyberpunk Thriller Replaced Delayed Until 2023" class="news-image">
+                            <p class="news-excerpt">Another game delayed due to the ongoing war in Ukraine. The development team needed more time to ensure quality and support their team members.</p>
+                            <a href="https://sea.ign.com/replaced/185792/news/stylish-cyberpunk-thriller-replaced-delayed-until-2023" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="news-item" data-category="news">
+                        <div class="news-item-header">
+                            <span class="news-category">News</span>
+                            <a href="https://sea.ign.com/news/172944/replaced-is-a-cyberpunk-thriller-with-rad-25d-art-coming-to-xbox-e3-2021" target="_blank" rel="noopener"><h3 class="news-title">Replaced Is a Cyberpunk Thriller With Rad 2.5D Art Coming to Xbox - E3 2021</h3></a>
+                            <p class="news-date">4 years, 6 months ago</p>
+                        </div>
+                        <div class="news-item-content">
+                            <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails)Screenshot4NoCar.png" alt="Replaced Is a Cyberpunk Thriller With Rad 2.5D Art Coming to Xbox" class="news-image">
+                            <p class="news-excerpt">New action-platformer features an AI trapped in a human body against its will. REPLACED was first revealed at E3 2021 with stunning 2.5D pixel art visuals.</p>
+                            <a href="https://sea.ign.com/news/172944/replaced-is-a-cyberpunk-thriller-with-rad-25d-art-coming-to-xbox-e3-2021" class="read-more-btn" target="_blank" rel="noopener">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button disabled>Previous</button>
+                    <button class="active">1</button>
+                    <button disabled>Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="static/logo.png" alt="REPLACED Logo">
+                        
+                    </div>
+                    <p>Stay updated with the latest REPLACED game news and announcements. Experience the stunning 2.5D sci-fi platformer launching March 12, 2026.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/ReplacedGame" target="_blank" rel="noopener">Twitter</a></li>
+                        <li><a href="https://playreplaced.com/" target="_blank" rel="noopener">Official Website</a></li>
+                        <li><a href="https://sadcatstudios.com/" target="_blank" rel="noopener">Sad Cat Studios</a></li>
+                        <li><a href="https://thunderfulgames.com/" target="_blank" rel="noopener">Thunderful Games</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 REPLACED. All rights reserved. | REPLACED launches March 12, 2026 on Xbox, Steam, and Epic Games Store.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // News Tab Filtering
+        let activeCategory = 'all'; // Store active category
+        
+        document.querySelectorAll('.news-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                document.querySelectorAll('.news-tab').forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                // Update active category
+                activeCategory = tab.dataset.category;
+                
+                // Reset to page 1 when category changes
+                currentPage = 1;
+                
+                // Apply filtering and pagination
+                applyFiltersAndPagination();
+            });
+        });
+        
+        function applyFiltersAndPagination() {
+            const newsItems = document.querySelectorAll('.news-item');
+            const visibleItems = [];
+            
+            // First, filter by category
+            newsItems.forEach(item => {
+                if (activeCategory === 'all' || item.dataset.category === activeCategory) {
+                    item.style.display = 'block';
+                    visibleItems.push(item);
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Then, apply pagination to visible items
+            visibleItems.forEach((item, index) => {
+                const itemPage = Math.floor(index / newsPerPage) + 1;
+                if (itemPage === currentPage) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Update pagination based on visible items
+            const visibleCount = visibleItems.length;
+            const totalPagesForCategory = Math.ceil(visibleCount / newsPerPage);
+            renderPaginationForCategory(totalPagesForCategory);
+        }
+        
+        function renderPaginationForCategory(totalPages) {
+            const pagination = document.querySelector('.pagination');
+            pagination.innerHTML = '';
+            
+            // Previous button
+            const prevBtn = document.createElement('button');
+            prevBtn.textContent = 'Previous';
+            if (currentPage === 1) prevBtn.disabled = true;
+            prevBtn.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    applyFiltersAndPagination();
+                }
+            });
+            pagination.appendChild(prevBtn);
+            
+            // Page number buttons
+            for (let i = 1; i <= totalPages; i++) {
+                const pageBtn = document.createElement('button');
+                pageBtn.textContent = i;
+                if (i === currentPage) pageBtn.classList.add('active');
+                pageBtn.addEventListener('click', () => {
+                    currentPage = i;
+                    applyFiltersAndPagination();
+                });
+                pagination.appendChild(pageBtn);
+            }
+            
+            // Next button
+            const nextBtn = document.createElement('button');
+            nextBtn.textContent = 'Next';
+            if (currentPage === totalPages) nextBtn.disabled = true;
+            nextBtn.addEventListener('click', () => {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    applyFiltersAndPagination();
+                }
+            });
+            pagination.appendChild(nextBtn);
+        }
+
+        // Mobile Menu
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenu = document.querySelector('.close-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+
+        // Pagination
+        const newsPerPage = 10;
+        let currentPage = 1;
+
+        // Initialize pagination
+        applyFiltersAndPagination();
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(23, 23, 23, 0.98)';
+            } else {
+                header.style.background = 'rgba(23, 23, 23, 0.95)';
+            }
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.news-item, .featured-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPLACED - 2.5D Sci-Fi Cyberpunk Platformer Game | Official Website</title>
+    <meta name="description" content="REPLACED game launches March 12, 2026! Experience this stunning 2.5D sci-fi retro-futuristic platformer combining cinematic action, pixel art, and free flow combat. Play as R.E.A.C.H, an AI trapped in a human body in Phoenix-City.">
+    <meta name="keywords" content="replaced game, replaced 2026, replaced release date, replaced game march 2026, 2.5D platformer, cyberpunk game, sci-fi game, pixel art game, replaced xbox, replaced steam, replaced game pass, sad cat studios, replaced R.E.A.C.H, phoenix city, retro-futuristic game">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://replacedgame.com/">
+    <meta property="og:title" content="REPLACED - 2.5D Sci-Fi Cyberpunk Platformer Game">
+    <meta property="og:description" content="REPLACED launches March 12, 2026! A 2.5D sci-fi retro-futuristic platformer combining cinematic action, pixel art, and free flow combat. Coming to Xbox, Steam, and Epic Games Store.">
+    <meta property="og:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="REPLACED - 2.5D Sci-Fi Cyberpunk Platformer Game">
+    <meta name="twitter:description" content="REPLACED launches March 12, 2026! Experience cinematic action, pixel art, and free flow combat in this stunning 2.5D sci-fi platformer.">
+    <meta name="twitter:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="apple-touch-icon" href="static/logo.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/base.css?v=1.0.0">
+    
+    <!-- Microsoft Validation -->
+    <meta name="msvalidate.01" content="B362957FC36C5EDDD6079B6D78330424">
+    
+    <!-- IndexNow -->
+    <meta name="yandex-verification" content="ee9f27884397bc6d" />
+    <meta name="IndexNow-Key" content="B362957FC36C5EDDD6079B6D78330424">
+    <meta name="IndexNow-Url" content="https://replacedgame.com/">
+    
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDFZLSQVMZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CDFZLSQVMZ');
+    </script>
+
+    <style>
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.9), rgba(20, 10, 10, 0.8)), url('static/images/artwork/Replaced_Keyart_Landscape_16x9.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--secondary-color);
+            padding: 200px 0 120px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(10, 26, 46, 0.3), rgba(22, 33, 62, 0.2));
+            z-index: 1;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(232, 67, 34, 0.1) 50%, transparent 70%);
+            animation: shimmer 3s ease-in-out infinite;
+            z-index: 3;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: var(--secondary-color);
+            position: relative;
+            z-index: 4;
+        }
+
+        .hero .subtitle {
+            font-size: 1.8rem;
+            margin-bottom: 3rem;
+            font-weight: 400;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            color: var(--light-accent);
+            position: relative;
+            z-index: 4;
+        }
+
+        /* Countdown Timer */
+        .countdown-container {
+            background: transparent;
+            padding: 3rem;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: none;
+            border: none;
+            backdrop-filter: none;
+            position: relative;
+            z-index: 4;
+        }
+
+        .countdown-container h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 700;
+            text-shadow: 0 0 10px rgba(232, 67, 34, 0.8), 2px 2px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        .countdown {
+            display: flex;
+            gap: 3rem;
+            margin-top: 1.5rem;
+            justify-content: center;
+        }
+
+        .countdown-item {
+            text-align: center;
+            min-width: 120px;
+            position: relative;
+        }
+
+        .countdown-item:not(:last-child)::after {
+            content: ':';
+            position: absolute;
+            right: -1.8rem;
+            top: 50%;
+            transform: translateY(-60%);
+            color: #ffffff;
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 0 0 15px rgba(232, 67, 34, 1), 0 0 30px rgba(232, 67, 34, 0.5);
+        }
+
+        .countdown-item span {
+            font-size: 4rem;
+            font-weight: 900;
+            display: block;
+            color: #ffffff;
+            text-shadow: 0 0 15px rgba(232, 67, 34, 1), 0 0 30px rgba(232, 67, 34, 0.5), 2px 2px 4px rgba(0, 0, 0, 0.9);
+            font-family: 'Courier New', monospace;
+            background: transparent;
+            border-radius: 10px;
+            padding: 0.8rem 1rem;
+            margin-bottom: 0.5rem;
+            border: none;
+            box-shadow: none;
+        }
+
+        .countdown-item label {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: #ffffff;
+            letter-spacing: 2px;
+            font-weight: 600;
+            text-shadow: 0 0 10px rgba(232, 67, 34, 0.8), 1px 1px 3px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Game Introduction */
+        .introduction {
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.5), rgba(50, 30, 30, 0.3)),
+                        radial-gradient(circle at 50% 50%, rgba(232, 67, 34, 0.1), transparent);
+            padding: 5rem 0;
+        }
+
+        .video-container {
+            margin: 3rem auto;
+            max-width: 900px;
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px var(--shadow-color);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .game-info {
+            margin-top: 3rem;
+            text-align: left;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .game-info h3, .game-info h4 {
+            color: #ffffff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .game-info h3 {
+            font-size: 1.8rem;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .game-info h4 {
+            font-size: 1.4rem;
+            color: var(--accent-color);
+        }
+
+        /* Features Section */
+        .features {
+            background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(40, 20, 20, 0.4)),
+                        radial-gradient(circle at 20% 80%, rgba(232, 67, 34, 0.1), transparent);
+            padding: 5rem 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: var(--secondary-color);
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px var(--shadow-color);
+        }
+
+        .feature-card h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        /* Screenshots Gallery */
+        .screenshots {
+            background: var(--secondary-color);
+            padding: 5rem 0;
+        }
+
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .screenshot-item {
+            position: relative;
+            cursor: pointer;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .screenshot-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--shadow-color);
+        }
+
+        .screenshot-grid img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease, filter 0.3s ease;
+            filter: brightness(1.1) saturate(1.1) contrast(1.1);
+        }
+
+        .screenshot-grid img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Lightbox Modal */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+            animation: fadeIn 0.3s;
+        }
+
+        .lightbox.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox-content {
+            position: relative;
+            margin: auto;
+            max-width: 90%;
+            max-height: 90%;
+            animation: zoomIn 0.3s;
+        }
+
+        .lightbox-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: var(--secondary-color);
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .lightbox-close:hover {
+            color: var(--accent-color);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.5), rgba(50, 30, 30, 0.3)),
+                        radial-gradient(circle at 80% 20%, rgba(232, 67, 34, 0.1), transparent);
+            padding: 5rem 0;
+        }
+
+        .faq-list {
+            max-width: 900px;
+            margin: 3rem auto;
+        }
+
+        .faq-item {
+            margin-bottom: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            overflow: hidden;
+            background: var(--secondary-color);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            background: var(--gradient-primary);
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .faq-question:hover {
+            background: var(--gradient-secondary);
+            color: #ffffff;
+        }
+
+        .faq-answer {
+            padding: 1.5rem;
+            display: none;
+            line-height: 1.7;
+            color: #ffffff;
+            background: rgba(22, 33, 62, 0.5);
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .mobile-menu-btn span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            margin: 5px 0;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(23, 23, 23, 0.98);
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .mobile-menu.active {
+            display: block;
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 60px 0 0 0;
+        }
+
+        .mobile-menu ul li {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .mobile-menu ul li a {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .mobile-menu ul li a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .close-menu {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background: none;
+            border: none;
+            color: var(--secondary-color);
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        /* Dropdown Menu */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--menu-bg);
+            min-width: 200px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .dropdown:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-menu li {
+            width: 100%;
+        }
+
+        .dropdown-menu li a {
+            display: block;
+            padding: 1rem 1.2rem;
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .dropdown-menu li a:hover {
+            background: rgba(0, 212, 255, 0.3);
+            color: var(--accent-color);
+        }
+
+        .dropdown-menu li:last-child a {
+            border-bottom: none;
+        }
+
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero {
+                background-attachment: scroll;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.3rem;
+            }
+
+            .countdown {
+                gap: 1.5rem;
+            }
+
+            .countdown-item {
+                min-width: 80px;
+            }
+
+            .countdown-item span {
+                font-size: 2.5rem;
+            }
+
+            .countdown-item:not(:last-child)::after {
+                right: -1rem;
+                font-size: 2rem;
+            }
+
+            .countdown-item label {
+                font-size: 0.9rem;
+            }
+
+            .countdown-container {
+                padding: 2rem;
+            }
+
+            .countdown-container h2 {
+                font-size: 1.5rem;
+            }
+
+            .dropdown-menu {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                background: transparent;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 150px 0 80px;
+                background-attachment: scroll;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .countdown {
+                gap: 1rem;
+            }
+
+            .countdown-item {
+                min-width: 60px;
+            }
+
+            .countdown-item span {
+                font-size: 2rem;
+            }
+
+            .countdown-item label {
+                font-size: 0.8rem;
+            }
+
+            .countdown-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="static/logo.png" alt="REPLACED Logo">
+                    
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/media">Media</a></li>
+                    <li><a href="/guides">Guides</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <button class="close-menu">&times;</button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/media">Media</a></li>
+                <li><a href="/guides">Guides</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>REPLACED</h1>
+                <p class="subtitle">2.5D Sci-Fi Retro-Futuristic Platformer</p>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem; color: var(--light-accent);">Coming March 12, 2026</p>
+                <div class="countdown-container">
+                    <h2>Official Release Countdown - March 12, 2026</h2>
+                    <div class="countdown">
+                        <div class="countdown-item">
+                            <span id="days">00</span>
+                            <label>Days</label>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="hours">00</span>
+                            <label>Hours</label>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes">00</span>
+                            <label>Minutes</label>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="seconds">00</span>
+                            <label>Seconds</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Introduction -->
+        <section class="introduction">
+            <div class="container">
+                <h2>Experience REPLACED - A Cinematic 2.5D Cyberpunk Adventure</h2>
+                <p><strong>REPLACED</strong> is a stunning 2.5D sci-fi retro-futuristic platformer that combines cinematic action, pixel art, and free flow combat. This highly anticipated <strong>replaced game</strong> is set to launch on <strong>March 12, 2026</strong>, bringing players into an alternative 1980s dystopian world where you play as R.E.A.C.H, an artificial intelligence trapped in a human body against its own will. The <strong>replaced game</strong> offers a deep, engaging story set in and around Phoenix-City, where players must navigate through a beautifully crafted cyberpunk environment filled with danger, mystery, and intense combat sequences. Developed by Sad Cat Studios and published by Thunderful, the <strong>replaced game</strong> represents a unique blend of retro aesthetics and modern gameplay mechanics that will captivate both platformer enthusiasts and story-driven game fans alike.</p>
+                
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C3bbZ_I8Ehg?si=k1aPqpt9K6h5EI3D" title="REPLACED Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                
+                <div class="game-info">
+                    <h3>About REPLACED</h3>
+                    <p><strong>REPLACED</strong> is a 2.5D sci-fi retro-futuristic platformer that masterfully combines cinematic action sequences with pixel art aesthetics and free flow combat mechanics. The <strong>replaced game</strong> tells a compelling story set in an alternative 1980s, where players take on the role of R.E.A.C.H, an artificial intelligence that finds itself unwillingly trapped within a human body. This unique premise sets the stage for an emotional journey through Phoenix-City, a dystopian metropolis filled with neon lights, dark alleys, and technological wonders. The <strong>replaced game</strong> features stunning pixel art graphics that pay homage to classic platformers while incorporating modern visual effects and cinematic presentation. Every frame of the <strong>replaced game</strong> is carefully crafted to create an immersive experience that transports players into its retro-futuristic world.</p>
+                    
+                    <h4>Story & Background</h4>
+                    <p>In the <strong>replaced game</strong>, players experience a deep, engaging dystopian narrative where R.E.A.C.H must learn to adapt to human life while navigating the dangerous streets of Phoenix-City. The story explores themes of identity, consciousness, and what it means to be human in a world where technology and humanity have become increasingly intertwined. The <strong>replaced game</strong> presents a rich narrative filled with memorable characters, moral dilemmas, and plot twists that will keep players engaged from start to finish. The alternative 1980s setting of the <strong>replaced game</strong> creates a unique atmosphere that blends nostalgic retro aesthetics with futuristic cyberpunk elements, resulting in a visually stunning and thematically rich experience.</p>
+                    
+                    <h4>Release Information</h4>
+                    <p><strong>REPLACED</strong> is scheduled for official release on <strong>March 12, 2026</strong>. The <strong>replaced game</strong> will be available on Xbox Series X|S, Xbox One, Xbox Game Pass for Console, Xbox Game Pass for PC, Steam, and the Epic Games Store. The <strong>replaced game</strong> will be fully optimized for the latest Xbox hardware, ensuring smooth performance and stunning visuals on Xbox Series X|S. Players can look forward to experiencing the <strong>replaced game</strong> on their preferred platform, with the game entering Xbox Game Pass at launch, making it easily accessible to millions of subscribers. The development team at Sad Cat Studios is working diligently to ensure the <strong>replaced game</strong> delivers a polished and memorable experience when it launches in March 2026.</p>
+                    
+                    <h4>Supported Languages</h4>
+                    <p>The <strong>replaced game</strong> will support multiple languages to ensure players worldwide can fully enjoy the narrative and gameplay experience. While specific language support details will be announced closer to release, the <strong>replaced game</strong> is being developed with international audiences in mind, ensuring that the story of R.E.A.C.H and Phoenix-City can be experienced by players regardless of their native language. The comprehensive localization efforts for the <strong>replaced game</strong> demonstrate the developers' commitment to creating an accessible and inclusive gaming experience for a global audience.</p>
+                </div>
+            </div>
+        </section>
+        <script async="async" data-cfasync="false" src="//pl28136434.effectivegatecpm.com/e946f08f3aed55e5425fe4ac5eb0477b/invoke.js"></script>
+        <div id="container-e946f08f3aed55e5425fe4ac5eb0477b"></div>
+        <!-- How to Play -->
+        <section class="features">
+            <div class="container">
+                <h2>How to Play REPLACED</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Master Free Flow Combat</h3>
+                        <p>The <strong>replaced game</strong> features a sophisticated free flow combat system that allows players to chain together fluid attack combinations, dodges, and special abilities. In the <strong>replaced game</strong>, players must master timing and positioning to execute devastating combos against enemies. The combat in the <strong>replaced game</strong> rewards skillful play and quick reflexes, creating an engaging and satisfying gameplay experience that keeps players coming back for more challenging encounters.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Explore Phoenix-City</h3>
+                        <p>Navigate through the sprawling dystopian metropolis of Phoenix-City in the <strong>replaced game</strong>. The <strong>replaced game</strong> features meticulously designed levels filled with secrets, collectibles, and hidden paths that reward exploration. Each area in the <strong>replaced game</strong> tells its own story through environmental storytelling, creating an immersive experience that goes beyond simple platforming. The world of the <strong>replaced game</strong> is rich with detail and atmosphere, inviting players to discover every corner of this alternative 1980s cyberpunk setting.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Experience Cinematic Storytelling</h3>
+                        <p>The <strong>replaced game</strong> delivers its narrative through stunning cinematic sequences that seamlessly blend with gameplay. In the <strong>replaced game</strong>, players will experience emotional story moments, character development, and plot revelations that drive the adventure forward. The storytelling in the <strong>replaced game</strong> is carefully crafted to maintain player engagement while providing context for R.E.A.C.H's journey through Phoenix-City. The <strong>replaced game</strong> balances action-packed gameplay with thoughtful narrative moments, creating a well-rounded experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Master Platforming Challenges</h3>
+                        <p>The <strong>replaced game</strong> features challenging platforming sections that test players' precision and timing. Throughout the <strong>replaced game</strong>, players will encounter various platforming challenges including wall-running, precise jumps, and environmental puzzles. The <strong>replaced game</strong> gradually introduces new platforming mechanics, ensuring players are always learning and improving their skills. Successfully navigating the platforming challenges in the <strong>replaced game</strong> requires patience, practice, and mastery of the game's responsive controls.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Screenshots -->
+        <section class="screenshots">
+            <div class="container">
+                <h2>REPLACED Game Gallery</h2>
+                <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">Explore stunning visuals from the <strong>replaced game</strong>, showcasing the beautiful pixel art, cinematic action sequences, and cyberpunk atmosphere that await you when the <strong>replaced game</strong> launches on March 12, 2026. These screenshots capture the essence of what makes the <strong>replaced game</strong> a unique and captivating 2.5D platformer experience.</p>
+                <div class="screenshot-grid">
+                    <div class="screenshot-item" data-src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png" alt="REPLACED game screenshot showing R.E.A.C.H in Phoenix-City cyberpunk environment">
+                    </div>
+                    <div class="screenshot-item" data-src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2.png">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2.png" alt="REPLACED game free flow combat action sequence">
+                    </div>
+                    <div class="screenshot-item" data-src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot3.png">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot3.png" alt="REPLACED game platforming challenge in dystopian city">
+                    </div>
+                    <div class="screenshot-item" data-src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot4Carpng.png">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot4Carpng.png" alt="REPLACED game cinematic scene in alternative 1980s setting">
+                    </div>
+                    <div class="screenshot-item" data-src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot5NoUI.png">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot5NoUI.png" alt="REPLACED game pixel art showcase of Phoenix-City environment">
+                    </div>
+                    <div class="screenshot-item" data-src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails)Screenshot4NoCar.png">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails)Screenshot4NoCar.png" alt="REPLACED game action sequence featuring R.E.A.C.H combat abilities">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <div class="lightbox-content">
+                <img id="lightbox-img" src="" alt="">
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>FAQS: FREQUENTLY ASKED QUESTIONS</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">What is REPLACED?</div>
+                        <div class="faq-answer"><strong>REPLACED</strong> is a 2.5D sci-fi retro-futuristic platformer combining cinematic action, pixel art, and free flow combat. The <strong>replaced game</strong> tells a deep, engaging dystopian story where you play as R.E.A.C.H, an artificial intelligence trapped in a human body against its own will, striving to adjust to human life in and around Phoenix-City.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">When is REPLACED coming out?</div>
+                        <div class="faq-answer"><strong>REPLACED</strong> is releasing on <strong>March 12, 2026</strong>. The <strong>replaced game</strong> has been carefully developed by Sad Cat Studios to ensure a polished and memorable experience when it launches. Players can look forward to experiencing the <strong>replaced game</strong> on multiple platforms including Xbox, Steam, and Epic Games Store.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Where can I play REPLACED?</div>
+                        <div class="faq-answer">You can play the <strong>replaced game</strong> on Xbox Series X|S, Xbox One, Xbox Game Pass for Console, Xbox Game Pass for PC, Steam, and the Epic Games Store. The <strong>replaced game</strong> will be fully optimized for the latest Xbox hardware, ensuring the best possible experience on Xbox Series X|S.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Where can I get the latest news on REPLACED?</div>
+                        <div class="faq-answer">For all the latest news on the <strong>replaced game</strong>, visit <a href="https://playreplaced.com/" target="_blank" rel="noopener">playREPLACED.com</a> or follow @ReplacedGame on Twitter. Stay updated with the latest information about the <strong>replaced game</strong> including release updates, gameplay features, and community events.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Will REPLACED be compatible with Xbox Series X|S?</div>
+                        <div class="faq-answer">Yes! The <strong>replaced game</strong> will be fully optimized for the latest Xbox hardware. Players can expect smooth performance, enhanced visuals, and fast loading times when playing the <strong>replaced game</strong> on Xbox Series X|S.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Is REPLACED coming to other platforms?</div>
+                        <div class="faq-answer">The <strong>replaced game</strong> is coming first to Xbox, Steam, Epic Games Store, and GOG. We have no news to share about additional platforms at this time. The <strong>replaced game</strong> will be available on these platforms when it launches on March 12, 2026.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Who is working on REPLACED?</div>
+                        <div class="faq-answer"><a href="https://sadcatstudios.com/" target="_blank" rel="noopener">Sad Cat Studios</a> are developing the <strong>replaced game</strong> and it is being published by <a href="https://thunderfulgames.com/" target="_blank" rel="noopener">Thunderful</a>. The talented team behind the <strong>replaced game</strong> is dedicated to creating an exceptional gaming experience that combines beautiful pixel art with modern gameplay mechanics.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Is REPLACED coming to Game Pass?</div>
+                        <div class="faq-answer">Yes, the <strong>replaced game</strong> will enter Xbox Game Pass at launch! This means subscribers can experience the <strong>replaced game</strong> on both Xbox Game Pass for Console and Xbox Game Pass for PC when it releases on March 12, 2026.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">When is REPLACED set?</div>
+                        <div class="faq-answer">The <strong>replaced game</strong> is set in an alternative 1980s, telling a deep, engaging dystopian story where you play as R.E.A.C.H, an artificial intelligence trapped in a human body against its own will, striving to adjust to human life in and around Phoenix-City. The setting of the <strong>replaced game</strong> creates a unique blend of retro aesthetics and cyberpunk themes.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="static/logo.png" alt="REPLACED Logo">
+                        
+                    </div>
+                    <p>Experience REPLACED, a stunning 2.5D sci-fi retro-futuristic platformer combining cinematic action, pixel art, and free flow combat. Coming March 12, 2026.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/ReplacedGame" target="_blank" rel="noopener">Twitter</a></li>
+                        <li><a href="https://playreplaced.com/" target="_blank" rel="noopener">Official Website</a></li>
+                        <li><a href="https://sadcatstudios.com/" target="_blank" rel="noopener">Sad Cat Studios</a></li>
+                        <li><a href="https://thunderfulgames.com/" target="_blank" rel="noopener">Thunderful Games</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 REPLACED. All rights reserved. | REPLACED launches March 12, 2026 on Xbox, Steam, and Epic Games Store.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer - March 12, 2026
+        const countDownDate = new Date("March 12, 2026 00:00:00").getTime();
+
+        const countdown = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days.toString().padStart(2, '0');
+            document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+            document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+            document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+
+            if (distance < 0) {
+                clearInterval(countdown);
+                document.querySelector(".countdown").innerHTML = "<div style='font-size: 2rem; color: var(--accent-color); font-weight: bold;'>REPLACED LAUNCHED!</div>";
+            }
+        }, 1000);
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(faqItem => {
+                    faqItem.classList.remove('active');
+                });
+                
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Mobile Menu
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenu = document.querySelector('.close-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(23, 23, 23, 0.98)';
+            } else {
+                header.style.background = 'rgba(23, 23, 23, 0.95)';
+            }
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.feature-card, .faq-item, .screenshot-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.querySelector('.lightbox-close');
+        const screenshotItems = document.querySelectorAll('.screenshot-item');
+
+        screenshotItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const imgSrc = item.getAttribute('data-src');
+                lightboxImg.src = imgSrc;
+                lightboxImg.alt = item.querySelector('img').alt;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        lightboxClose.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Close lightbox with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+</html>

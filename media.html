@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPLACED Media - Screenshots, Videos & Gallery | replacedgame.com</title>
+    <meta name="description" content="Explore REPLACED game media gallery featuring stunning screenshots, gameplay videos, and pixel art. Discover the visual world of the 2.5D sci-fi platformer launching March 12, 2026.">
+    <meta name="keywords" content="replaced game media, replaced screenshots, replaced videos, replaced gallery, replaced pixel art, replaced game pass, replaced xbox, replaced steam">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://replacedgame.com/media">
+    <meta property="og:title" content="REPLACED Media - Screenshots, Videos & Gallery">
+    <meta property="og:description" content="Explore REPLACED game media gallery featuring stunning screenshots, gameplay videos, and pixel art.">
+    <meta property="og:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="REPLACED Media - Screenshots, Videos & Gallery">
+    <meta name="twitter:description" content="Explore REPLACED game media gallery featuring stunning screenshots, gameplay videos, and pixel art.">
+    <meta name="twitter:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="apple-touch-icon" href="static/logo.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/base.css?v=1.0.0">
+    
+    <!-- Microsoft Validation -->
+    <meta name="msvalidate.01" content="B362957FC36C5EDDD6079B6D78330424">
+    
+    <!-- IndexNow -->
+    <meta name="yandex-verification" content="ee9f27884397bc6d" />
+    <meta name="IndexNow-Key" content="B362957FC36C5EDDD6079B6D78330424">
+    <meta name="IndexNow-Url" content="https://replacedgame.com/media">
+    
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDFZLSQVMZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CDFZLSQVMZ');
+    </script>
+    
+    <style>
+        .media-hero {
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.95), rgba(20, 10, 10, 0.90)), 
+                        url('static/images/artwork/Replaced_Keyart_Landscape_16x9.png');
+            background-size: cover;
+            background-position: center;
+            color: var(--secondary-color);
+            padding: 150px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .media-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: 800;
+        }
+
+        .media-hero p {
+            font-size: 1.3rem;
+            color: var(--light-accent);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .media-content {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.5), rgba(50, 30, 30, 0.3)),
+                        radial-gradient(circle at 50% 50%, rgba(232, 67, 34, 0.1), transparent);
+        }
+
+        .media-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .media-tab {
+            background: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .media-tab.active,
+        .media-tab:hover {
+            background: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .media-item {
+            background: var(--secondary-color);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .media-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--shadow-color);
+        }
+
+        .media-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .media-item:hover .media-image {
+            transform: scale(1.05);
+        }
+
+        .media-info {
+            padding: 1.5rem;
+        }
+
+        .media-title {
+            font-size: 1.3rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .media-description {
+            color: var(--text-color);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .media-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #E84322 0%, #cc2d0f 100%);
+            color: #ffffff;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            box-shadow: 0 0 15px rgba(232, 67, 34, 0.5);
+        }
+
+        .download-btn:hover {
+            background: linear-gradient(135deg, #ff5c3a 0%, #E84322 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(255, 92, 58, 0.8);
+        }
+
+        .view-btn {
+            background: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .view-btn:hover {
+            background: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .video-section {
+            background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(40, 20, 20, 0.4)),
+                        radial-gradient(circle at 20% 80%, rgba(232, 67, 34, 0.1), transparent);
+            padding: 4rem 0;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .video-item {
+            background: var(--secondary-color);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-info {
+            padding: 1.5rem;
+        }
+
+        .wallpaper-section {
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.5), rgba(50, 30, 30, 0.3)),
+                        radial-gradient(circle at 80% 20%, rgba(232, 67, 34, 0.1), transparent);
+            padding: 4rem 0;
+        }
+
+        .wallpaper-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .wallpaper-item {
+            background: var(--secondary-color);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease;
+        }
+
+        .wallpaper-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .wallpaper-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .wallpaper-item:hover .wallpaper-image {
+            transform: scale(1.05);
+        }
+
+        .wallpaper-info {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .wallpaper-title {
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .wallpaper-resolution {
+            color: var(--text-color);
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-bottom: 1rem;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            position: relative;
+            margin: 5% auto;
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .modal-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: var(--secondary-color);
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 2001;
+        }
+
+        .close:hover {
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            .media-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .media-hero p {
+                font-size: 1.1rem;
+            }
+
+            .media-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .media-tab {
+                width: 200px;
+                text-align: center;
+            }
+
+            .media-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .wallpaper-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+
+            .media-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="static/logo.png" alt="REPLACED Logo">
+                    
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/media" class="active">Media</a></li>
+                    <li><a href="/guides">Guides</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <button class="close-menu">&times;</button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/media">Media</a></li>
+                <li><a href="/guides">Guides</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <script async="async" data-cfasync="false" src="//pl28136434.effectivegatecpm.com/e946f08f3aed55e5425fe4ac5eb0477b/invoke.js"></script>
+        <div id="container-e946f08f3aed55e5425fe4ac5eb0477b"></div>
+        <!-- Media Hero -->
+        <section class="media-hero">
+            <div class="container">
+                <h1>GALLERY</h1>
+                <p>Explore the stunning visual world of REPLACED through our collection of screenshots, videos, and pixel art. Experience the beautiful 2.5D sci-fi platformer with cinematic action and retro-futuristic aesthetics.</p>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section class="media-content">
+            <div class="container">
+                <h2 class="text-center mb-4">Game Screenshots</h2>
+                <div class="media-tabs">
+                    <button class="media-tab active" data-category="all">All Screenshots</button>
+                    <button class="media-tab" data-category="gameplay">Gameplay</button>
+                    <button class="media-tab" data-category="environments">Environments</button>
+                </div>
+
+                <div class="media-grid">
+                    <div class="media-item" data-category="gameplay">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png" alt="REPLACED game screenshot showing R.E.A.C.H in Phoenix-City" class="media-image">
+                        <div class="media-info">
+                            <h3 class="media-title">R.E.A.C.H in Phoenix-City</h3>
+                            <p class="media-description">Explore the dystopian world of Phoenix-City as R.E.A.C.H, an AI trapped in a human body, in this stunning 2.5D platformer.</p>
+                            <div class="media-actions">
+                                <a href="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png" class="download-btn" download>Download</a>
+                                <a href="#" class="view-btn" onclick="openModal('static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot1.png')">View Full Size</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-item" data-category="gameplay">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2.png" alt="REPLACED free flow combat action" class="media-image">
+                        <div class="media-info">
+                            <h3 class="media-title">Free Flow Combat</h3>
+                            <p class="media-description">Experience the fluid combat system in REPLACED with cinematic action sequences and pixel art aesthetics.</p>
+                            <div class="media-actions">
+                                <a href="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2.png" class="download-btn" download>Download</a>
+                                <a href="#" class="view-btn" onclick="openModal('static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2.png')">View Full Size</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-item" data-category="environments">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot3.png" alt="REPLACED platforming challenge in dystopian city" class="media-image">
+                        <div class="media-info">
+                            <h3 class="media-title">Platforming Challenges</h3>
+                            <p class="media-description">Navigate through challenging platforming sections in the alternative 1980s cyberpunk setting of REPLACED.</p>
+                            <div class="media-actions">
+                                <a href="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot3.png" class="download-btn" download>Download</a>
+                                <a href="#" class="view-btn" onclick="openModal('static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot3.png')">View Full Size</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-item" data-category="gameplay">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot4Carpng.png" alt="REPLACED cinematic scene" class="media-image">
+                        <div class="media-info">
+                            <h3 class="media-title">Cinematic Storytelling</h3>
+                            <p class="media-description">Witness the beautiful pixel art and cinematic presentation that makes REPLACED a unique gaming experience.</p>
+                            <div class="media-actions">
+                                <a href="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot4Carpng.png" class="download-btn" download>Download</a>
+                                <a href="#" class="view-btn" onclick="openModal('static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot4Carpng.png')">View Full Size</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-item" data-category="environments">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot5NoUI.png" alt="REPLACED pixel art showcase" class="media-image">
+                        <div class="media-info">
+                            <h3 class="media-title">Pixel Art Excellence</h3>
+                            <p class="media-description">Admire the stunning pixel art graphics that bring Phoenix-City to life in this retro-futuristic platformer.</p>
+                            <div class="media-actions">
+                                <a href="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot5NoUI.png" class="download-btn" download>Download</a>
+                                <a href="#" class="view-btn" onclick="openModal('static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot5NoUI.png')">View Full Size</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-item" data-category="gameplay">
+                        <img src="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails)Screenshot4NoCar.png" alt="REPLACED action sequence" class="media-image">
+                        <div class="media-info">
+                            <h3 class="media-title">Action Sequences</h3>
+                            <p class="media-description">Experience intense action sequences featuring R.E.A.C.H's combat abilities in this 2.5D sci-fi platformer.</p>
+                            <div class="media-actions">
+                                <a href="static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails)Screenshot4NoCar.png" class="download-btn" download>Download</a>
+                                <a href="#" class="view-btn" onclick="openModal('static/images/screenshots/REPLACED_SadCatStudios_Screenshots-Thumbnails)Screenshot4NoCar.png')">View Full Size</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section class="video-section">
+            <div class="container">
+                <h2 class="text-center mb-4">Gameplay Videos</h2>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/C3bbZ_I8Ehg?si=k1aPqpt9K6h5EI3D" title="REPLACED Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="media-title">Official Trailer</h3>
+                            <p class="media-description">Watch the official REPLACED trailer showcasing the stunning 2.5D sci-fi platformer with cinematic action and pixel art.</p>
+                        </div>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UAV3VdhixLE?si=ZJQGaGqvkUEO-r9i" title="REPLACED Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="media-title">Gameplay Showcase</h3>
+                            <p class="media-description">Experience the free flow combat and platforming mechanics in REPLACED's alternative 1980s cyberpunk world.</p>
+                        </div>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fuUo7_VaboE?si=pJn4ctYVzSJ8atIz" title="REPLACED Gameplay Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="media-title">Phoenix-City Exploration</h3>
+                            <p class="media-description">Explore the dystopian metropolis of Phoenix-City and discover the story of R.E.A.C.H in this cinematic platformer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal for full-size images -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" class="modal-image" src="" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="static/logo.png" alt="REPLACED Logo">
+                        
+                    </div>
+                    <p>Explore the visual world of REPLACED through our media gallery. Experience the stunning 2.5D sci-fi platformer launching March 12, 2026.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/ReplacedGame" target="_blank" rel="noopener">Twitter</a></li>
+                        <li><a href="https://playreplaced.com/" target="_blank" rel="noopener">Official Website</a></li>
+                        <li><a href="https://sadcatstudios.com/" target="_blank" rel="noopener">Sad Cat Studios</a></li>
+                        <li><a href="https://thunderfulgames.com/" target="_blank" rel="noopener">Thunderful Games</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 REPLACED. All rights reserved. | REPLACED launches March 12, 2026 on Xbox, Steam, and Epic Games Store.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Media Tab Filtering
+        document.querySelectorAll('.media-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.media-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                const category = tab.dataset.category;
+                const mediaItems = document.querySelectorAll('.media-item');
+                
+                mediaItems.forEach(item => {
+                    if (category === 'all' || item.dataset.category === category) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeInUp 0.5s ease forwards';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Modal functions
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImage.src = imageSrc;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+        }
+
+        // Close modal when clicking outside the image
+        window.addEventListener('click', (event) => {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Mobile Menu
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenu = document.querySelector('.close-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(23, 23, 23, 0.98)';
+            } else {
+                header.style.background = 'rgba(23, 23, 23, 0.95)';
+            }
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.media-item, .video-item, .wallpaper-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

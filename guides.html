@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPLACED Guides - System Requirements, Platforms & Gameplay Tips | replacedgame.com</title>
+    <meta name="description" content="Complete REPLACED game guides including system requirements, platform information, gameplay tips, and strategies. Learn how to master the 2.5D sci-fi platformer launching March 12, 2026.">
+    <meta name="keywords" content="replaced game guides, replaced system requirements, replaced platforms, replaced gameplay tips, replaced xbox, replaced steam, replaced game pass, replaced walkthrough">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://replacedgame.com/guides">
+    <meta property="og:title" content="REPLACED Guides - System Requirements, Platforms & Gameplay Tips">
+    <meta property="og:description" content="Complete REPLACED game guides including system requirements, platform information, and gameplay tips.">
+    <meta property="og:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="REPLACED Guides - System Requirements, Platforms & Gameplay Tips">
+    <meta name="twitter:description" content="Complete REPLACED game guides including system requirements, platform information, and gameplay tips.">
+    <meta name="twitter:image" content="https://replacedgame.com/static/images/artwork/Replaced_Keyart_Landscape_16x9.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="apple-touch-icon" href="static/logo.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/base.css?v=1.0.0">
+    
+    <!-- Microsoft Validation -->
+    <meta name="msvalidate.01" content="B362957FC36C5EDDD6079B6D78330424">
+    
+    <!-- IndexNow -->
+    <meta name="yandex-verification" content="ee9f27884397bc6d" />
+    <meta name="IndexNow-Key" content="B362957FC36C5EDDD6079B6D78330424">
+    <meta name="IndexNow-Url" content="https://replacedgame.com/guides">
+    
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDFZLSQVMZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CDFZLSQVMZ');
+    </script>
+    
+    <style>
+        .guides-hero {
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.95), rgba(20, 10, 10, 0.90)), 
+                        url('static/images/artwork/Replaced_Keyart_Landscape_16x9.png');
+            background-size: cover;
+            background-position: center;
+            color: var(--secondary-color);
+            padding: 150px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .guides-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: 800;
+        }
+
+        .guides-hero p {
+            font-size: 1.3rem;
+            color: var(--light-accent);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .guides-content {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.5), rgba(50, 30, 30, 0.3)),
+                        radial-gradient(circle at 50% 50%, rgba(232, 67, 34, 0.1), transparent);
+        }
+
+        .guide-section {
+            background: rgba(20, 20, 20, 0.6);
+            border-radius: 15px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            border: 1px solid rgba(232, 67, 34, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .guide-section h2 {
+            color: var(--accent-color);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(232, 67, 34, 0.5);
+        }
+
+        .guide-section h3 {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .requirements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .requirement-card {
+            background: rgba(15, 15, 15, 0.8);
+            border: 1px solid rgba(232, 67, 34, 0.3);
+            border-radius: 10px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .requirement-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 20px rgba(232, 67, 34, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .requirement-card h4 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .requirement-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .requirement-card li {
+            color: var(--text-color);
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .requirement-card li:last-child {
+            border-bottom: none;
+        }
+
+        .requirement-card li strong {
+            color: #ffffff;
+        }
+
+        .platforms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .platform-card {
+            background: rgba(15, 15, 15, 0.8);
+            border: 1px solid rgba(232, 67, 34, 0.3);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .platform-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 20px rgba(232, 67, 34, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .platform-card h4 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .platform-card p {
+            color: var(--text-color);
+            margin: 0.5rem 0;
+        }
+
+        .tips-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 2rem;
+        }
+
+        .tips-list li {
+            background: rgba(15, 15, 15, 0.8);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .tips-list li:hover {
+            background: rgba(20, 20, 20, 0.9);
+            transform: translateX(10px);
+        }
+
+        .tips-list li strong {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .tips-list li p {
+            color: var(--text-color);
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="static/logo.png" alt="REPLACED Logo">
+                    
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/media">Media</a></li>
+                    <li><a href="/guides" class="active">Guides</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <button class="close-menu">&times;</button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/media">Media</a></li>
+                <li><a href="/guides">Guides</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Guides Hero -->
+        <section class="guides-hero">
+            <div class="container">
+                <h1>GAME GUIDES</h1>
+                <p>Complete guides for REPLACED including system requirements, platform information, gameplay tips, and strategies to master the 2.5D sci-fi platformer.</p>
+            </div>
+        </section>
+
+        <!-- Guides Content -->
+        <section class="guides-content">
+            <div class="container">
+                <!-- System Requirements -->
+                <div class="guide-section">
+                    <h2>System Requirements</h2>
+                    <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem;">Ensure your system meets the minimum requirements to experience REPLACED at its best. The <strong>replaced game</strong> is optimized for smooth performance across all supported platforms.</p>
+                    
+                    <div class="requirements-grid">
+                        <div class="requirement-card">
+                            <h4>Minimum Requirements</h4>
+                            <ul>
+                                <li><strong>OS:</strong> Windows 10 (64-bit)</li>
+                                <li><strong>Processor:</strong> Intel Core i5-4590 / AMD FX-8350</li>
+                                <li><strong>Memory:</strong> 8 GB RAM</li>
+                                <li><strong>Graphics:</strong> NVIDIA GTX 960 / AMD Radeon R9 280</li>
+                                <li><strong>DirectX:</strong> Version 11</li>
+                                <li><strong>Storage:</strong> 10 GB available space</li>
+                                <li><strong>Sound Card:</strong> DirectX compatible</li>
+                            </ul>
+                        </div>
+
+                        <div class="requirement-card">
+                            <h4>Recommended Requirements</h4>
+                            <ul>
+                                <li><strong>OS:</strong> Windows 11 (64-bit)</li>
+                                <li><strong>Processor:</strong> Intel Core i7-8700 / AMD Ryzen 5 3600</li>
+                                <li><strong>Memory:</strong> 16 GB RAM</li>
+                                <li><strong>Graphics:</strong> NVIDIA GTX 1660 / AMD Radeon RX 580</li>
+                                <li><strong>DirectX:</strong> Version 12</li>
+                                <li><strong>Storage:</strong> 15 GB available space (SSD recommended)</li>
+                                <li><strong>Sound Card:</strong> DirectX compatible</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h3>Console Requirements</h3>
+                    <div class="platforms-grid">
+                        <div class="platform-card">
+                            <h4>Xbox Series X|S</h4>
+                            <p>Fully optimized for Xbox Series X|S with enhanced graphics, fast loading times, and smooth 60 FPS gameplay.</p>
+                        </div>
+                        <div class="platform-card">
+                            <h4>Xbox One</h4>
+                            <p>Compatible with Xbox One and Xbox One X. Experience the <strong>replaced game</strong> on previous generation hardware.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platforms -->
+                <div class="guide-section">
+                    <h2>Available Platforms</h2>
+                    <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem;">The <strong>replaced game</strong> will be available on multiple platforms when it launches on March 12, 2026. Choose your preferred platform to experience REPLACED.</p>
+                    
+                    <div class="platforms-grid">
+                        <div class="platform-card">
+                            <h4>Xbox Series X|S</h4>
+                            <p>Optimized for next-generation Xbox hardware with stunning visuals and performance.</p>
+                            <p><strong>Available:</strong> March 12, 2026</p>
+                        </div>
+
+                        <div class="platform-card">
+                            <h4>Xbox One</h4>
+                            <p>Play on Xbox One and Xbox One X with full feature support.</p>
+                            <p><strong>Available:</strong> March 12, 2026</p>
+                        </div>
+
+                        <div class="platform-card">
+                            <h4>Xbox Game Pass</h4>
+                            <p>Available on Xbox Game Pass for Console and PC at launch. Play the <strong>replaced game</strong> with your Game Pass subscription.</p>
+                            <p><strong>Available:</strong> March 12, 2026</p>
+                        </div>
+
+                        <div class="platform-card">
+                            <h4>Steam</h4>
+                            <p>Purchase and play REPLACED on Steam for PC. Full Steam features and achievements support.</p>
+                            <p><strong>Available:</strong> March 12, 2026</p>
+                        </div>
+
+                        <div class="platform-card">
+                            <h4>Epic Games Store</h4>
+                            <p>Available on Epic Games Store for PC. Experience the <strong>replaced game</strong> on Epic's platform.</p>
+                            <p><strong>Available:</strong> March 12, 2026</p>
+                        </div>
+
+                        <div class="platform-card">
+                            <h4>GOG</h4>
+                            <p>DRM-free version available on GOG. Own your copy of the <strong>replaced game</strong> without restrictions.</p>
+                            <p><strong>Available:</strong> March 12, 2026</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gameplay Tips -->
+                <div class="guide-section">
+                    <h2>Gameplay Tips & Strategies</h2>
+                    <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem;">Master the <strong>replaced game</strong> with these essential gameplay tips and strategies. Learn how to excel in combat, platforming, and exploration.</p>
+                    
+                    <ul class="tips-list">
+                        <li>
+                            <strong>Master the Free Flow Combat System</strong>
+                            <p>The <strong>replaced game</strong> features a sophisticated free flow combat system. Practice chaining together attacks, dodges, and special abilities to create devastating combos. Timing is crucial - wait for the right moment to strike and always be aware of enemy attack patterns. The combat in the <strong>replaced game</strong> rewards skillful play and quick reflexes.</p>
+                        </li>
+
+                        <li>
+                            <strong>Explore Every Corner of Phoenix-City</strong>
+                            <p>Phoenix-City is filled with secrets, collectibles, and hidden paths. Take your time to explore each area thoroughly. The <strong>replaced game</strong> rewards exploration with valuable items, story insights, and hidden areas. Use R.E.A.C.H's abilities to access hard-to-reach places and discover the full depth of the game's world.</p>
+                        </li>
+
+                        <li>
+                            <strong>Learn Platforming Mechanics</strong>
+                            <p>The <strong>replaced game</strong> features challenging platforming sections that require precision and timing. Practice wall-running, precise jumps, and environmental navigation. Don't rush through platforming challenges - take your time to understand the mechanics and plan your route. The <strong>replaced game</strong> gradually introduces new platforming mechanics, so master each one before moving on.</p>
+                        </li>
+
+                        <li>
+                            <strong>Pay Attention to the Story</strong>
+                            <p>The <strong>replaced game</strong> tells a deep, engaging story about R.E.A.C.H's journey. Pay attention to dialogue, environmental storytelling, and character interactions. The narrative in the <strong>replaced game</strong> is carefully crafted and provides context for your actions. Understanding the story will enhance your overall experience with the <strong>replaced game</strong>.</p>
+                        </li>
+
+                        <li>
+                            <strong>Manage Your Resources</strong>
+                            <p>Throughout the <strong>replaced game</strong>, you'll need to manage various resources and abilities. Learn when to use special abilities and when to conserve them. The <strong>replaced game</strong> requires strategic thinking in addition to quick reflexes. Plan your approach to each encounter to maximize your effectiveness.</p>
+                        </li>
+
+                        <li>
+                            <strong>Experiment with Combat Styles</strong>
+                            <p>The <strong>replaced game</strong> offers multiple ways to approach combat. Experiment with different attack combinations, dodging strategies, and ability usage. Find a combat style that suits your playstyle. The <strong>replaced game</strong> encourages experimentation and rewards players who master its combat system.</p>
+                        </li>
+
+                        <li>
+                            <strong>Use Environmental Elements</strong>
+                            <p>Phoenix-City is filled with interactive environmental elements that can aid you in combat and exploration. Look for objects you can use to your advantage, such as explosive barrels, platforms, and cover. The <strong>replaced game</strong> rewards players who use their environment creatively.</p>
+                        </li>
+
+                        <li>
+                            <strong>Save Frequently</strong>
+                            <p>While the <strong>replaced game</strong> features auto-save functionality, it's always wise to save your progress manually at save points. This ensures you don't lose progress if you need to restart or encounter any issues. The <strong>replaced game</strong> provides multiple save points throughout each area.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Operating Systems -->
+                <div class="guide-section">
+                    <h2>Supported Operating Systems</h2>
+                    <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem;">The <strong>replaced game</strong> supports multiple operating systems to ensure accessibility for all players.</p>
+                    
+                    <div class="platforms-grid">
+                        <div class="platform-card">
+                            <h4>Windows 10</h4>
+                            <p>Minimum supported version: Windows 10 (64-bit). The <strong>replaced game</strong> is fully compatible with Windows 10.</p>
+                        </div>
+
+                        <div class="platform-card">
+                            <h4>Windows 11</h4>
+                            <p>Fully optimized for Windows 11 with enhanced performance and features. Recommended OS for the <strong>replaced game</strong>.</p>
+                        </div>
+                    </div>
+
+                    <p style="text-align: center; color: var(--text-color); margin-top: 2rem;"><strong>Note:</strong> The <strong>replaced game</strong> requires a 64-bit operating system. Mac and Linux versions are not currently planned, but may be considered for future releases.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="static/logo.png" alt="REPLACED Logo">
+                        
+                    </div>
+                    <p>Complete guides for REPLACED including system requirements, platform information, and gameplay tips. Master the 2.5D sci-fi platformer launching March 12, 2026.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/ReplacedGame" target="_blank" rel="noopener">Twitter</a></li>
+                        <li><a href="https://playreplaced.com/" target="_blank" rel="noopener">Official Website</a></li>
+                        <li><a href="https://sadcatstudios.com/" target="_blank" rel="noopener">Sad Cat Studios</a></li>
+                        <li><a href="https://thunderfulgames.com/" target="_blank" rel="noopener">Thunderful Games</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 REPLACED. All rights reserved. | REPLACED launches March 12, 2026 on Xbox, Steam, and Epic Games Store.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/base.js"></script>
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenuBtn = document.querySelector('.close-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(23, 23, 23, 0.98)';
+            } else {
+                header.style.background = 'rgba(23, 23, 23, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>
+
