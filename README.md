@@ -108,7 +108,7 @@ This website is designed to be deployed on **Cloudflare Pages**. Simply connect 
 
 ## License
 
-© 2025 REPLACED. All rights reserved.
+© 2026 REPLACED. All rights reserved.
 
 REPLACED is developed by Sad Cat Studios and published by Thunderful Games.
 
