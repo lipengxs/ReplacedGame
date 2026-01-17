@@ -14,5 +14,9 @@ Disallow: /private/
 Disallow: /temp/
 Disallow: /cgi-bin/
 
+# Allow static resources including favicon
+Allow: /static/favicon.ico
+Allow: /favicon.ico
+
 # Sitemap location
 Sitemap: https://replacedgame.com/sitemap.xml 
