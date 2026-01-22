@@ -1,8 +1,12 @@
-# REPLACED - Official Website
+# REPLACED - Fan Website
 
-Official website for **REPLACED**, a stunning 2.5D sci-fi retro-futuristic platformer combining cinematic action, pixel art, and free flow combat. Launching March 12, 2026.
+**⚠️ IMPORTANT DISCLAIMER:** This is a **fan-created website**, not the official REPLACED website. 
 
-**Website**: [replacedgame.com](https://replacedgame.com)
+**Official Website**: [playreplaced.com](https://playreplaced.com)
+
+This fan website provides information about **REPLACED**, a stunning 2.5D sci-fi retro-futuristic platformer combining cinematic action, pixel art, and free flow combat. Launching March 12, 2026.
+
+**Fan Website**: [replacedgame.com](https://replacedgame.com)
 
 ## About REPLACED
 
@@ -40,8 +44,10 @@ REPLACED is a 2.5D sci-fi retro-futuristic platformer that tells a deep, engagin
 
 - **Developer**: [Sad Cat Studios](https://sadcatstudios.com)
 - **Publisher**: [Thunderful Games](https://thunderfulgames.com)
-- **Official Website**: [playreplaced.com](https://playreplaced.com)
+- **Official Website**: [playreplaced.com](https://playreplaced.com) ⚠️ **This is the official site**
 - **Twitter**: [@ReplacedGame](https://twitter.com/ReplacedGame)
+
+**Note**: This repository is for a fan-created website. For official REPLACED information, always visit [playreplaced.com](https://playreplaced.com).
 
 ## Technology Stack
 

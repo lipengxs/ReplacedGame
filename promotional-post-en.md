@@ -69,7 +69,8 @@ This isn't just another platformer. This is REPLACED—a game that challenges wh
 - **Developer**: [Sad Cat Studios](https://sadcatstudios.com)
 - **Publisher**: [Thunderful Games](https://thunderfulgames.com)
 - **Genre**: 2.5D Sci-Fi Retro-Futuristic Platformer
-- **Official Website**: [replacedgame.com](https://replacedgame.com) | [playreplaced.com](https://playreplaced.com)
+- **Official Website**: [playreplaced.com](https://playreplaced.com) ⚠️ **Official Site**
+- **Fan Website**: [replacedgame.com](https://replacedgame.com) (This is a fan-created site, not official)
 - **Twitter**: [@ReplacedGame](https://twitter.com/ReplacedGame)
 - **News & Updates**: [replacedgame.com/news](https://replacedgame.com/news)
 - **Media Gallery**: [replacedgame.com/media](https://replacedgame.com/media)

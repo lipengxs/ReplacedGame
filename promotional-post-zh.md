@@ -69,7 +69,8 @@ REPLACED的核心是一个关于身份、意识和人工与有机生命之间模
 - **开发商**: [Sad Cat Studios](https://sadcatstudios.com)
 - **发行商**: [Thunderful Games](https://thunderfulgames.com)
 - **类型**: 2.5D科幻复古未来主义平台游戏
-- **官方网站**: [replacedgame.com](https://replacedgame.com) | [playreplaced.com](https://playreplaced.com)
+- **官方网站**: [playreplaced.com](https://playreplaced.com) ⚠️ **官方网站**
+- **粉丝网站**: [replacedgame.com](https://replacedgame.com) (这是粉丝创建的网站，非官方网站)
 - **推特**: [@ReplacedGame](https://twitter.com/ReplacedGame)
 - **新闻与更新**: [replacedgame.com/news](https://replacedgame.com/news)
 - **媒体库**: [replacedgame.com/media](https://replacedgame.com/media)
